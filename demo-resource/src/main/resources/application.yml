@@ -1,0 +1,6 @@
+server:
+  port: 9001
+  contextPath: /resource
+security.oauth2.resource.userInfoUri: http://localhost:9000/auth/user 
+management:
+  context-path: /admin

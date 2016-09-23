@@ -1,0 +1,56 @@
+# Compiled source #
+###################
+*.class
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store*
+
+#
+# eclipse generated files
+#
+.metadata/
+.classpath
+.project
+.settings/
+.springBeans
+.factorypath
+.mvn
+
+#
+# runtime generated files
+#
+build.out
+jetty.out
+log-access.xml
+*.pid
+
+#
+# files generated during build
+#
+target/
+coverage-report/
+logs/
+bin/
+docs/generated/
+/target/
+xxx.sh
+.spring-env.sh
+.security-disabled.sh
