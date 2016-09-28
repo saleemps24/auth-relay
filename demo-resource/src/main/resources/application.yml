@@ -4,6 +4,9 @@ server:
 #security.oauth2.resource.userInfoUri: http://localhost:9000/auth/user
 security:
   oauth2:
+    client:
+      client-id: foo
+      client-secret: foosecret
     resource:
       jwt:
         keyValue: |
